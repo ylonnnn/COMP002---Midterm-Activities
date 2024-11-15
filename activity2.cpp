@@ -90,7 +90,7 @@ int main()
     cout << "\n";
     cout << "The selling price of the item is: " << price + salesTax << "\n";
     cout << "The monthly expenses: " << expenses << "\n";
-    cout << "The total quantity of items needed to be sold to have break-even: " << expenses / price << "\n";
+    cout << "The total quantity of items needed to be sold to have break-even: " << expenses / price << " pieces.\n";
     cout << "The total net profit: " << netProfit << "\n";
 
     return 0;
