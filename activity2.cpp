@@ -87,7 +87,9 @@ int main()
           netProfit = (price * itemQuantity) - expenses;
 
     // Display the output
-    cout << "\n";
+    // Insert fixed and precision to the output stream to format floating point values
+    cout << fixed << setprecision(2) << "\n";
+
     cout << "The selling price of the item is: " << price + salesTax << "\n";
     cout << "The monthly expenses: " << expenses << "\n";
     cout << "The total quantity of items needed to be sold to have break-even: " << expenses / price << " pieces.\n";
